@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+}
+.body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Header
+____________________________________ */
+
+header {
+    text-align: center;
+    padding-top: 107px;
+}
+
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #212121;
+    display: inline-block;
+    margin: 0;
+}
+
+hr {
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin: 30px 668px;
+    border: none;
+}
+
+.small-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    margin: 0;
+}
+
+/* Part 1
+____________________________________ */
+.container {
+    padding-top: 80px;
+    padding-bottom: 106px;
+}
+
+section {
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.lamp {
+    background-image: url(../img/lamp.png);
+    width: 70px;
+    height: 70px;
+    border-color: #ff8b38;
+    border-style: solid;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+  
+.keyboard {
+    background-image: url(../img/keyboard.png);
+    width: 70px;
+    height: 70px;
+    border-color: #ff8b38;
+    border-style: solid;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.lightning {
+    background-image: url(../img/lightning.png);
+    width: 70px;
+    height: 70px;
+    border-color: #ff8b38;
+    border-style: solid;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.article-lamp {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.article-keyboard {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.article-lightning {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Part 2
+______________________________ */
+
+.download {
+    background: url(../img/background.jpeg) no-repeat center;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    padding-top: 76px;
+    padding-bottom: 63px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.white-line {
+    width: 74px;
+    height: 2px;
+    background-color: #ffffff;
+    border: none;
+    margin-top: 26px;
+    margin-bottom: 23px;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+    opacity: 0.8;
+    padding-bottom: 33px;
+}
+
+button { 
+    padding: 15px 31px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+
+}
+
+/* Footer
+_________________________________________ */
+
+.footer{
+    background: #000000;
+    padding: 38px 0 15px;
+    font-size: 0;
+}
+
+ul {
+    width: auto;
+    height: 20px;
+    list-style-type: none;
+    background: url(../img/css_sprites-social.png) no-repeat center center;
+}
+
+li, a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.copy {
+    color: white;
+    font-size: 12px;
+    opacity: 0.5;
+}
+  
