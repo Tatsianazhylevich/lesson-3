@@ -33,7 +33,7 @@ hr {
     width: 64px;
     height: 2px;
     background-color: #ff8b38;
-    margin: 30px 668px;
+    margin: 30px auto;
     border: none;
 }
 
@@ -156,8 +156,7 @@ h1 {
     height: 2px;
     background-color: #ffffff;
     border: none;
-    margin-top: 26px;
-    margin-bottom: 23px;
+    margin-top: 26px auto 23px;
 }
 
 h5 {
