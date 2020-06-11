@@ -4,11 +4,9 @@
 }
 
 body {
-    width: 100%;
-    background-color: #fff;
     margin: 0;
 }
-.body {
+.content {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,33 +14,32 @@ body {
 ____________________________________ */
 
 header {
-    text-align: center;
     padding-top: 107px;
+    text-align: center;
 }
 
 
 h2 {
+    display: inline-block;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     color: #212121;
-    display: inline-block;
-    margin: 0;
 }
 
 hr {
     width: 64px;
     height: 2px;
-    background-color: #ff8b38;
     margin: 30px auto;
+    background-color: #ff8b38;
     border: none;
-
 }
 
 .small-text {
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #86878b;
-    margin: 0;
 }
 
 /* Part 1
@@ -54,120 +51,114 @@ ____________________________________ */
 
 section {
     width: 350px;
-    text-align: center;
     display: inline-block;
     margin: 0 16px;
+    text-align: center;
 }
 
 .lamp {
-    background-image: url(../img/lamp.png);
     width: 70px;
     height: 70px;
+    display: inline-block;
+    background: url(../img/lamp.png) no-repeat center;
     border-color: #ff8b38;
     border-style: solid;
     border-radius: 50px;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: inline-block;
 }
   
 .keyboard {
-    background-image: url(../img/keyboard.png);
     width: 70px;
     height: 70px;
+    display: inline-block;
+    background: url(../img/keyboard.png) no-repeat center;
     border-color: #ff8b38;
     border-style: solid;
     border-radius: 50px;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: inline-block;
 }
 
 .lightning {
-    background-image: url(../img/lightning.png);
     width: 70px;
     height: 70px;
+    display: inline-block;
+    background: url(../img/lightning.png) no-repeat center;
     border-color: #ff8b38;
     border-style: solid;
     border-radius: 50px;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: inline-block;
 }
 
 .article-lamp {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: #333333;
 }
 
 .article-keyboard {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: #333333;
 }
 
 .article-lightning {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: #333333;
 }
 
 .text {
+    display: inline-block;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #86878b;
-    display: inline-block;
-    text-align: center;
 }
 
 /* Part 2
 ______________________________ */
 
 .download {
+    padding-top: 76px;
+    padding-bottom: 63px;
     background: url(../img/background.jpeg) no-repeat center;
     background-color: rgba(0,0,0,.6);
     background-blend-mode: darken;
     background-size: cover;
-    padding-top: 76px;
-    padding-bottom: 63px;
 }
 
 h1 {
+    margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     color: #ffffff;
-    margin: 0;
 }
 
 .white-line {
     width: 74px;
     height: 2px;
+    margin-top: 26px auto 23px;
     background-color: #ffffff;
     border: none;
-    margin-top: 26px auto 23px;
 }
 
 h5 {
+    margin: 0;
+    padding-bottom: 33px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #ffffff;
-    margin: 0;
     opacity: 0.8;
-    padding-bottom: 33px;
 }
 
 button { 
@@ -176,19 +167,18 @@ button {
     font-weight: 600;
     color: #ffffff;
     background: transparent;
+    border: 2px solid #ffffff;
     outline: none;
     cursor: pointer;
-    border: 2px solid #ffffff;
-
 }
 
 /* Footer
 _________________________________________ */
 
 .footer{
-    background: #000000;
     padding: 38px 0 15px;
     font-size: 0;
+    background: #000000;
 }
 
 ul {
@@ -210,3 +200,4 @@ li, a {
     font-size: 12px;
     opacity: 0.5;
 }
+  
